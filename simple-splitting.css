@@ -1,0 +1,24 @@
+.ss-transparent {
+    opacity: 0;
+}
+
+.ss-opacity {
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+
+.ss-rotate {
+    transform: rotate(360deg);
+    transform-origin: center;
+}
+
+.ss-grow {
+    transform: scale(0);
+    transform-origin: center;
+}
+
+.ss-transform {
+    display: inline-block;
+    transform: none;
+    transition: transform .3s ease;
+}
